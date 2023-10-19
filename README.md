@@ -8,10 +8,10 @@ https://gitlab.freedesktop.org/gstreamer/gst-plugins-rs/-/tree/main/net/webrtc?r
 
 To build the docker:
 
-docker build -t gst-sample:v1 .
+`docker build -t gst-sample:v1 .`
 
 To run it after being built:
 
-docker compose -f "docker-compose.yml" up -d --build
+`docker compose -f "docker-compose.yml" up -d --build`
 
 After its up, you can enter an interactive shell in the docker to execute the signalling server scripts and the video test stream generator.

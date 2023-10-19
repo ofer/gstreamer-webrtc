@@ -1,0 +1,10 @@
+version: '3.9'
+
+services:
+  gst-test:
+    image: gst-sample:v1
+    ports:
+      - 8443:8443
+      - 9090:9090
+    restart: always
+    # volumes:
